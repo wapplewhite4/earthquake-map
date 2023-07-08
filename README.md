@@ -3,17 +3,20 @@ An interactive earthquake map showing live earthquake data around the globe.
 Consists of a series of modules which I completed as part of the Object Oriented Programming in Java course completed though UCSD. Utilized Processing and UnfoldingMaps libraries.
 
 Module 1: 
-					1:Added code to the setup method and draw method to display two maps side by side in the window.
+1:Added code to the setup method and draw method to display two maps side by side in the window.
+
 Module 3: 
-					1: Modified setup method to create a SimplePointMarker object for each PointFeature in the list features.
-          2: Added code to the createMarker method to style each marker according to its magnitude.
-          3: Authored the addKey method, utilizing the PApplet class, to draw a key for the map describing which markers corresponded to which magnitude.
+1: Modified setup method to create a SimplePointMarker object for each PointFeature in the list features.
+2: Added code to the createMarker method to style each marker according to its magnitude.
+3: Authored the addKey method, utilizing the PApplet class, to draw a key for the map describing which markers corresponded to which magnitude.
+
 Module 4: 
-					1: Implemented the isLand(Feature earthquake) method in EarthquakeCityMap.  Method returns true if the location of the input earthquake is on land. Sets "country" property on LandMarker to 							country where earthquake occurred.  Otherwise, location is in ocean and method returns false.
-					2: Implemented the printQuakes() method in EarthquakeCityMap. Method lists each country in which 1 or more earthquakes occurred and number of earthquakes in that country.
-					3: Implemented draw() method in CityMarker class. Method draws a triangle marker for each city.
-		 			4: Implemented drawEarthquake() method in LandQuakeMarker and OceanQuakeMarker. Method draws LandQuakeMarkers as circles and OceanQuakeMarkers as squares. Scales size of marker based on 									magnitude.
-					5: Implemented colorDetermine() method in EarthquakeMarker. Method colors markers depending on whether they are shallow, intermediate, or deep.
+1: Implemented the isLand(Feature earthquake) method in EarthquakeCityMap.  Method returns true if the location of the input earthquake is on land. Sets "country" property on LandMarker to 	country where earthquake occurred.  Otherwise, location is in ocean and method returns false.
+2: Implemented the printQuakes() method in EarthquakeCityMap. Method lists each country in which 1 or more earthquakes occurred and number of earthquakes in that country.
+3: Implemented draw() method in CityMarker class. Method draws a triangle marker for each city.
+4: Implemented drawEarthquake() method in LandQuakeMarker and OceanQuakeMarker. Method draws LandQuakeMarkers as circles and OceanQuakeMarkers as squares. Scales size of marker based on magnitude.
+5: Implemented colorDetermine() method in EarthquakeMarker. Method colors markers depending on whether they are shallow, intermediate, or deep.
+
 Module 5: 
 					1: Changed class hierarchy structure so that CityMarker extends CommonMarker instead of SimplePointMarker.
 					2: Implemented the selectMarkerIfHover helper method in EarthquakeCityMap. Method sets the instance variable selected for the first Marker it finds that mouseX and mouseY is inside of.
