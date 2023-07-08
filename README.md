@@ -3,6 +3,7 @@ An interactive earthquake map showing live earthquake data around the globe.
 Consists of a series of modules which I completed as part of the Object Oriented Programming in Java course completed though UCSD. Utilized Processing and UnfoldingMaps libraries.
 
 Module 1: 
+
 1:Added code to the setup method and draw method to display two maps side by side in the window.
 
 Module 3: 
@@ -14,6 +15,7 @@ Module 3:
 3: Authored the addKey method, utilizing the PApplet class, to draw a key for the map describing which markers corresponded to which magnitude.
 
 Module 4: 
+
 1: Implemented the isLand(Feature earthquake) method in EarthquakeCityMap.  Method returns true if the location of the input earthquake is on land. Sets "country" property on LandMarker to 	country where earthquake occurred.  Otherwise, location is in ocean and method returns false.
 
 2: Implemented the printQuakes() method in EarthquakeCityMap. Method lists each country in which 1 or more earthquakes occurred and number of earthquakes in that country.
